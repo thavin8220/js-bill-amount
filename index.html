@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Amount</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            width:30%;
+            margin: 0 auto;
+        }
+        fieldset>div{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bill Amount</h1>
+    <fieldset>
+    <div class="col">
+        <label for="rate">Enter The Amount</label>
+        <input type="text" id="rate" value="" placeholder="Enter Amount">
+    </div>
+    
+    <div class="col">
+        <label for="tips">Enter The Tips:</label>
+        <input type="text" id="tips" value="" placeholder="Enter Tips">
+    </div>    
+
+    <div class="col">
+        <label for="tipsamount">Enter Tips Amount:</label>
+        <input type="text" id="tipsamount" value="" placeholder="Tips Amount">
+    </div>
+    
+    <div class="col">
+        <label for="total">Enter Total Amount:</label>
+        <input type="text" id="total" value="" placeholder="Total Ampunt">
+    </div>   
+    
+    <div class="button">
+        <button id="btn" onclick="myfunction()">Click</button>
+    </div>
+
+    </fieldset>
+    <script src="main.js"></script>
+</body>
+</html>
